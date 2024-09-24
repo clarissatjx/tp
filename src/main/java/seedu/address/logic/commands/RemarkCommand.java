@@ -73,7 +73,6 @@ public class RemarkCommand extends Command {
 
     @Override
     public boolean equals(Object other) {
-        // short circuit if same object
         if (other == this) {
             return true;
         }
